@@ -1,0 +1,75 @@
+.sobrePage{
+  height: fit-content;
+  padding-bottom: 4rem ;
+}
+
+.imagemSobre{
+  display: flex;
+  margin: 0;
+  position: relative;
+}
+
+
+img{
+  display: flex;
+  max-width:100%;
+  height: auto;
+}
+
+.tituloSobre{
+  display: flex;
+  align-items: center;
+  margin: 3rem auto 50px auto;
+  text-align: center;
+  border-bottom: white solid 1px;
+  width: fit-content;
+  padding-bottom: 5px;
+}
+
+.textSobre{
+  text-align: justify;
+  padding: 0 5rem;
+  margin: 2rem;
+}
+
+.buttonSobre{
+  margin: 6rem 5rem 7rem;
+  display: flex;
+  justify-content: center ;
+
+}
+
+@media (min-width: 500px) {
+
+  .buttonSobre{
+  margin: 9rem 5rem 7rem;
+  display: flex;
+  justify-content: center ;
+  }
+
+  .esquerdaSobre{
+    width: 50%;
+    max-width: none;
+  }
+
+  .imagemSobre img{
+    display: flex;
+    width: 100%;
+  }
+
+  .sobrePage{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    padding-bottom: 7rem ;
+
+  }
+
+  .contentSobre{
+    width: 50%;
+  }
+
+  .textSobre{
+    line-height: 5rem;
+  }
+}

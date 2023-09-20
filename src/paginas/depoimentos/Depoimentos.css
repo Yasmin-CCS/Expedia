@@ -1,0 +1,13 @@
+.depoimentosPage{
+  background-image: url('src/assets/background2mobile.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  box-shadow: 0px -50px 60px -20px black inset, 0px 80px 60px -30px rgb(33, 0, 0) inset;
+}
+
+.depoimentosPage h1{
+  padding: 35px 66px;
+
+}
