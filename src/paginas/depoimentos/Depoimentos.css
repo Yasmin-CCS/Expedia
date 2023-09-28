@@ -3,11 +3,38 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
   box-shadow: 0px -50px 60px -20px black inset, 0px 80px 60px -30px rgb(33, 0, 0) inset;
 }
 
 .depoimentosPage h1{
   padding: 35px 66px;
+
+}
+
+.contentDepoimentos{
+  padding-bottom: 3rem;
+  margin-top: 5rem;
+}
+
+.boxDepoimentos{
+  line-height: 8rem;
+  height: fit-content;
+}
+
+.boxDepoimentos h5{
+  line-height: 3rem;
+}
+
+@media (min-width: 500px)  {
+
+  .boxDepoimentos{
+    width: 60rem;
+    line-height: 8rem;
+    height: fit-content;
+  }
+
+.contentDepoimentos{
+  display: flex;
+}
 
 }
