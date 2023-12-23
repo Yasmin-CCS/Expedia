@@ -36,15 +36,27 @@ img{
   margin: 6rem 5rem 7rem;
   display: flex;
   justify-content: center ;
+  height: 3.6rem;
+}
 
+.iconsDiv{
+  display: flex;
+  padding: 3rem 9rem 2rem 9rem;
+  justify-content: center ;
+}
+
+.icons{
+  margin: 0rem 2rem 0rem 2rem;
 }
 
 @media (min-width: 500px) {
 
   .buttonSobre{
-  margin: 9rem 5rem 7rem;
-  display: flex;
-  justify-content: center ;
+    margin:0rem;
+    padding: 3rem 5rem 3rem;
+    display: flex;
+    justify-content: center ;
+    height: 11.8rem;
   }
 
   .esquerdaSobre{

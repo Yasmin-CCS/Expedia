@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Kantumruy+Pro:wght@600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&family=Kantumruy+Pro:wght@600&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@600&family=Roboto&display=swap');
+
 
 * {
   margin:0;
@@ -13,7 +16,7 @@
 
 .boxTexto{
   padding: 3rem 4.2rem;
-  background-color: rgba(0, 0, 0, 0.292);
+  background-color: rgb(85 77 77 / 31%);
   margin: 0 5rem 3rem; 
   border-radius: 5px;
   text-align:justify;
@@ -25,43 +28,44 @@
 }
 
 h1{
-  font-family: 'Kaisei Opti', serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 4.0rem;
   font-weight: 400;
 }
 
 h2{
-  font-family: 'Kaisei Opti', serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 3.0rem;
   font-weight: 400;
 }
 
 h3{
-  font-family: 'Kaisei Opti', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
   font-weight: 400;
 }
 
 h4{
-  font-family: 'Kaisei Opti', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
+  line-height: 5rem;
 }
 
 h5{
-  font-family: 'Kaisei Opti', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
-  line-height: 2.6rem;
+  line-height: 4rem;
 }
 
 .buttonGeral{
-  margin: 6rem 5rem 7rem;
+  padding: 3rem 5rem 7rem;
   display: flex;
   justify-content: center ;
-
+  height: 2.6rem;
 }
 
 span{
@@ -108,33 +112,33 @@ span{
   }
 
   h1{
-    font-family: 'Kaisei Opti', serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 5.5rem;
     font-weight: 400;
   }
   
   h2{
-    font-family: 'Kaisei Opti', serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 4.5rem;
     font-weight: 400;
   }
   
   h3{
-    font-family: 'Kaisei Opti', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.5rem;
     font-weight: 400;
   }
   
   h4{
-    font-family: 'Kaisei Opti', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2.3rem;
     font-weight: 400;
   }
   
   h5{
-    font-family: 'Kaisei Opti', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     font-weight: 400;
   }
