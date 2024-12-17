@@ -1,0 +1,33 @@
+
+
+{
+    "images": [
+      {
+        "id": 1,
+        "path": "/assets/Family_Beach.png",
+        "matches": 5,
+        "name": "Hall"
+      },
+      {
+        "id": 2,
+        "path": "/assets/Family_Pool.png",
+        "matches": 4,
+        "name": "Family_in_the_Beach"
+      },
+      {
+        "id": 3,
+        "path": "/assets/Kids_Pool.png",
+        "matches": 3,
+        "name": "Kids"
+      },
+
+      {
+        "id": 4,
+        "path": "/assets/Exterior.png",
+        "matches": 1,
+        "name": "Exterior"
+      }
+    ]
+  }
+
+

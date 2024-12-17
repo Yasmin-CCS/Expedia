@@ -1,6 +1,5 @@
 {
   "name": "denise",
-  "homepage": "https://denisesalvi.com.br/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -16,7 +15,8 @@
     "@mui/icons-material": "^5.15.1",
     "@mui/material": "^5.15.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "swiper": "^11.1.15"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

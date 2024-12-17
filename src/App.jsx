@@ -1,18 +1,14 @@
 import './App.css';
-import Abertura from './paginas/abertura/Abertura';
-import Beneficios from './paginas/beneficios/Beneficios';
-import Depoimentos from './paginas/depoimentos/Depoimentos';
-import Sobre from './paginas/sobre/Sobre';
+import Page from './paginas/abertura/Page';
+
 
 function App() {
   
   return (
     <>
       <div className='geral'>
-        <Abertura/>
-        <Beneficios/>
-        <Depoimentos/>
-        <Sobre/>
+        <Page/>
+
       </div>
     </>
   )
